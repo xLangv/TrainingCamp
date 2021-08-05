@@ -8,10 +8,10 @@
         <version>2.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>geektime.demo</groupId>
+    <groupId>geektime.jvm</groupId>
     <artifactId>geektime-jvm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>geektime-jvm</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
