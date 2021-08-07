@@ -44,6 +44,7 @@ public class HelloClassLoader extends ClassLoader {
             for (int i = 0; i < bytes.length; i++) {
                 bytes[i] = (byte) (255 - bytes[i]);
             }
+            Files.write(Paths.get("D:\\traningCamp\\Hello.class"), bytes);
             aClass = defineClass(name, bytes, 0, bytes.length);
         } catch (IOException e) {
             e.printStackTrace();
